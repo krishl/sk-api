@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
+  adapter: postgresql
   database: sk-api_production
   username: sk-api
   password: <%= ENV['SK-API_DATABASE_PASSWORD'] %>
