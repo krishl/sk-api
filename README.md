@@ -1,24 +1,12 @@
-# README
+# Luminance API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the API backend for Luminance, a tool compares the ingredients between skincare products for similarities. The client is available at https://github.com/krishl/sk-client.
 
-Things you may want to cover:
+## Contributing
 
-* Ruby version
+Bug reports and pull requests are welcome on GitHub at https://github.com/krishl/sk-api. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-* System dependencies
 
-* Configuration
+## License
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Luminance API is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
