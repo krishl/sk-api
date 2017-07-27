@@ -17,9 +17,7 @@ class Api::V1::ProductsController < ApplicationController
     @product = Product.find_by(upvote_params)
     @product.upvote += 1
     if @product.save
-       @products = Product.all
-       @products = @products.reverse
-       @products
+       @product
     else
       render json: {status: 500, err: 'Unable to upvote product'}
     end

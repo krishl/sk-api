@@ -31,11 +31,11 @@ ActiveRecord::Schema.define(version: 20170724202920) do
   end
 
   create_table "products", force: :cascade do |t|
-    t.string   "name"
-    t.string   "brand"
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
-    t.integer  "upvote",     default: 0
+    t.string  "name"
+    t.string  "brand"
+    t.integer "upvote",     default: 0
+    t.string  "created_at"
+    t.string  "updated_at"
   end
 
 end
